@@ -25,12 +25,12 @@ class Owner
     self.all.clear
   end
 
-  def buy_cat
-
+  def buy_cat(name)
+    name = Cat.new(name)
   end
 
-  def buy_dog
-
+  def buy_dog(name)
+    name = Dog.new(name)
   end
 
 
