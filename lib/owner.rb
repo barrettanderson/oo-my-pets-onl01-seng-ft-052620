@@ -40,4 +40,9 @@ class Owner
   def dogs
     Dog.all.select {|dog| dog.owner == self}
   end
+
+  def walk_dogs
+
+  end
+
 end
