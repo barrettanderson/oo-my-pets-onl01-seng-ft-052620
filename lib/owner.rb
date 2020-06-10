@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   # code goes here
   attr_reader :name, :species
@@ -65,7 +67,8 @@ class Owner
   end
 
   def list_pets
-
+    binding.pry
+    "I have "
   end
 
 end
