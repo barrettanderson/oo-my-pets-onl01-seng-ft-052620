@@ -26,7 +26,7 @@ class Owner
   end
 
   def buy_cat(name)
-    name = Cat.new(name)
+    cat_name = Cat.new(name)
   end
   #
   # def buy_dog(name)
